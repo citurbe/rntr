@@ -40,6 +40,7 @@ class PreferencesComponent extends React.Component{
           <input type="text" id="destination" onChange={this.handleDestinationChange.bind(this)}/></p>
 
           <p><label id="commute">Commute:</label>
+          // JK: map through the options to make this shorter.
           <select id="commute" onChange={this.handleChange.bind(this)}>
               <option value='-'>-</option>
               <option value='1'>1</option>
@@ -55,6 +56,7 @@ class PreferencesComponent extends React.Component{
           </select></p>
 
           <p><label id="schools">Schools:</label>
+          // JK: map through the options to make this shorter.
             <select id="schools" onChange={this.handleChange.bind(this)}>
                 <option value='-'>-</option>
                 <option value='1'>1</option>
@@ -70,6 +72,7 @@ class PreferencesComponent extends React.Component{
             </select></p>
 
           <p><label id="safety">Safety:</label>
+          // JK: map through the options to make this shorter.
             <select id="safety" onChange={this.handleChange.bind(this)}>
                 <option value='-'>-</option>
                 <option value='1'>1</option>
@@ -85,6 +88,7 @@ class PreferencesComponent extends React.Component{
             </select></p>
 
           <p><label id="amenities">Amenities:</label>
+          // JK: map through the options to make this shorter.
             <select id="amenities" onChange={this.handleChange.bind(this)}>
                 <option value='-'>-</option>
                 <option value='1'>1</option>

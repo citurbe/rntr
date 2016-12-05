@@ -8,6 +8,7 @@ const DistanceComponent = (props) => {
 
   function handleSubmit(event){
     event.preventDefault()
+    // here i would have the state change each time an input is updated so you don't need to access children.
     props.getDistance(event.target.children[1].value, event.target.children[4].value)
 
   }

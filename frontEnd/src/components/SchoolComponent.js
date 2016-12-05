@@ -6,7 +6,7 @@ import { bindActionCreators } from 'redux';
 
 
 const SchoolComponent = (props) => {
-
+// should not be a functional component
   function handleSubmit(event){
     event.preventDefault()
     props.getSchools(event.target.children[1].value, event.target.children[4].value)

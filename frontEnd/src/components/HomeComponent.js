@@ -14,6 +14,7 @@ class HomeComponent extends React.Component {
 
 
 function mapStateToProps(state) {
+//   don't pass through the entire state here, only pass in the slice you need.
   return state
 }
 
